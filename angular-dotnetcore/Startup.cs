@@ -34,7 +34,14 @@ namespace angular_dotnetcore
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseMvc();
+            app.UseStaticFiles();
+
+            app.UseMvc(routes =>
+            {
+                routes.MapSpaFallbackRoute(
+                    name: "SPA",
+                    defaults: new { controller = "Home", action = "Spa" });
+            });
         }
     }
 }
