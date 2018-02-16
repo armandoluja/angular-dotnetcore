@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "angular-dotnetcore", "angular-dotnetcore\angular-dotnetcore.csproj", "{9348F176-3FD1-4045-AA56-BD8D15C1A4B6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF", "EF\EF.csproj", "{37EFA3EB-7741-4BA6-8377-5F9C11346859}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{8E945DCF-25B4-49BB-9C08-A7E7C4463D39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9348F176-3FD1-4045-AA56-BD8D15C1A4B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9348F176-3FD1-4045-AA56-BD8D15C1A4B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9348F176-3FD1-4045-AA56-BD8D15C1A4B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37EFA3EB-7741-4BA6-8377-5F9C11346859}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37EFA3EB-7741-4BA6-8377-5F9C11346859}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37EFA3EB-7741-4BA6-8377-5F9C11346859}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37EFA3EB-7741-4BA6-8377-5F9C11346859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E945DCF-25B4-49BB-9C08-A7E7C4463D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E945DCF-25B4-49BB-9C08-A7E7C4463D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E945DCF-25B4-49BB-9C08-A7E7C4463D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E945DCF-25B4-49BB-9C08-A7E7C4463D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
